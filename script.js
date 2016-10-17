@@ -8,6 +8,8 @@ var person = {
 
 var display = $("#display");
 var display2 = $("#display2");
+var display3 = $("#display3");
+
 
 var name = person.name;
 var picture = person.representation;
@@ -16,7 +18,7 @@ var catc = person.catchphrase;
 function drawPerson(person) {
   display.html(name)
   display2.html(picture)
-//  display.html(catc)
+  display3.html(catc)
 }
 
 drawPerson(person)
