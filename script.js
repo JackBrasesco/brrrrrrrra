@@ -15,7 +15,7 @@ var catc = person.catchphrase;
 
 function drawPerson(person) {
   display.html(name)
-  display.html(picture)
+  display2.html(picture)
 //  display.html(catc)
 }
 
