@@ -5,5 +5,11 @@ var person = {
   favoriteColor: "blue",
   catchphrase: "Get pumped!"
 }
+var name = person.name;
+var picture = person.representation;
+var catc = person.catchphrase;
+
+function drawPerson(person) {
+}
 
 //drawPerson(person)
