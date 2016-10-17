@@ -2,4 +2,5 @@ function drawPerson(person) {
 }
 
 var name = person.name
-var
+var picture = person.representation
+var catc = person.catchphrase
