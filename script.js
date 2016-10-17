@@ -5,14 +5,16 @@ var person = {
   favoriteColor: "blue",
   catchphrase: "Get pumped!"
 }
+
+var display = $("#display");
 var name = person.name;
 var picture = person.representation;
 var catc = person.catchphrase;
 
 function drawPerson(person) {
   display.html(name)
-  display.html(picture)
-  display.html
+//  display.html(picture)
+//  display.html(catc)
 }
 
-//drawPerson(person)
+drawPerson(person)
