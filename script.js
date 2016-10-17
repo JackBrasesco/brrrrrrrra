@@ -10,6 +10,9 @@ var picture = person.representation;
 var catc = person.catchphrase;
 
 function drawPerson(person) {
+  display.html(name)
+  display.html(picture)
+  display.html
 }
 
 //drawPerson(person)
