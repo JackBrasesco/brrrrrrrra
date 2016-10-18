@@ -1,7 +1,7 @@
 var person = {
   name: "David",
   representation:  "http://i.dailymail.co.uk/i/pix/2016/03/14/19/322C3FA100000578-0-image-a-13_1457982438669.jpg",
-  height: "500px",	
+  height: "100px",	
   favoriteColor: "blue",
   catchphrase: "Get pumped!"
 }
@@ -15,9 +15,10 @@ var name = person.name;
 var picture = person.representation;
 var catc = person.catchphrase;
 
+
 function drawPerson(person) {
   display.html(name)
-  display2.attr(picture)
+  display2.attr("src", picture)
   display3.html(catc)
 }
 
